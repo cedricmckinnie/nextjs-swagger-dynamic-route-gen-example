@@ -1,3 +1,13 @@
+
+/**
+ * @swagger
+ * /api/user/[id]:
+ *   get:
+ *     description: get user by id
+ *     responses:
+ *       200:
+ *         description: get user by id
+ */
 export default function userHandler(req, res) {
   const {
     query: { id, name },
